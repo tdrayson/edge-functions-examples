@@ -70,6 +70,10 @@
   path = "/fetch-joke"
   function = "proxy-requests"
 
+[[edge_functions]]
+  path = "/random-quote"
+  function = "randomQuote"
+
 # Serve pages explaining each example 
 [[edge_functions]]
   path = "/example/*"
