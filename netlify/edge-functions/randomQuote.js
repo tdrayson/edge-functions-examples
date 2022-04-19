@@ -1,4 +1,4 @@
-import { Context } from "netlify:edge";
+import { context } from "netlify:edge";
 
 export default async (Request,Context) => {
 
