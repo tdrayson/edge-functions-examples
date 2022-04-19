@@ -1,6 +1,6 @@
 import { context } from "netlify:edge";
 
-export default async (Request,Context) => {
+export default async () => {
 
   const quote = await fetch("https://zenquotes.io/api/random", {
     "headers": {
